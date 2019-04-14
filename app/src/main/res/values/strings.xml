@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="profile_image">profile_image</string>
+    <string name="mock_text">To simplify the decision of which flag to choose for your own need, I’ve made this comparison list:
+
+scroll
+Scroll Up: the view becomes visible when the layout’s been scrolled all the way up
+Scroll Down: the view scrolls with the rest of the content like it’s a part of it; will hide if the layout’s height is bigger than the screen’s one
+
+enterAlways
+Scroll Up: the view becomes visible on every scroll up action, even if there’s still a lot of content to scroll up
+Scroll Down: the view scrolls with the rest of the content like it’s a part of it; will hide if the layout’s height is bigger than the screen’s one
+
+enterAlwaysCollapsed
+Scroll Up: the collapsed version of the view (e.g. Toolbar) becomes visible on every scroll up action, and it expands (e.g. Toolbar with an ImageView) only when scrolled all the way up
+Scroll Down: the view collapses and then hides, if the layout’s height is bigger than the screen’s one
+
+exitUntilCollapsed
+Scroll Up: the view is always visible, provided its height is > 0 and the expanded version (e.g. Toolbar with an ImageView) will become visible when scrolled all the way up
+Scroll Down: the view scrolls with the rest of the layout’s content, but only till its collapsed state (hence — ”exit until collapsed”), so in case of a Toolbar with a fixed height, it will always be visible on the top
+
+snap
+Scroll Up AND Down: fast scrolls up or down based on how much of the view is visible — if more than 50% — the view will scroll down, showing itself, if less — the view will hide; used with other flags as a further customization
+
+Does it make sense now? :) I hope you understand more about scroll flags after reading this post. Please write a comment if something’s unclear. Thanks!
+    To simplify the decision of which flag to choose for your own need, I’ve made this comparison list:
+
+scroll
+Scroll Up: the view becomes visible when the layout’s been scrolled all the way up
+Scroll Down: the view scrolls with the rest of the content like it’s a part of it; will hide if the layout’s height is bigger than the screen’s one
+
+enterAlways
+Scroll Up: the view becomes visible on every scroll up action, even if there’s still a lot of content to scroll up
+Scroll Down: the view scrolls with the rest of the content like it’s a part of it; will hide if the layout’s height is bigger than the screen’s one
+
+enterAlwaysCollapsed
+Scroll Up: the collapsed version of the view (e.g. Toolbar) becomes visible on every scroll up action, and it expands (e.g. Toolbar with an ImageView) only when scrolled all the way up
+Scroll Down: the view collapses and then hides, if the layout’s height is bigger than the screen’s one
+
+exitUntilCollapsed
+Scroll Up: the view is always visible, provided its height is > 0 and the expanded version (e.g. Toolbar with an ImageView) will become visible when scrolled all the way up
+Scroll Down: the view scrolls with the rest of the layout’s content, but only till its collapsed state (hence — ”exit until collapsed”), so in case of a Toolbar with a fixed height, it will always be visible on the top
+
+snap
+Scroll Up AND Down: fast scrolls up or down based on how much of the view is visible — if more than 50% — the view will scroll down, showing itself, if less — the view will hide; used with other flags as a further customization
+
+Does it make sense now? :) I hope you understand more about scroll flags after reading this post. Please write a comment if something’s unclear. Thanks!</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1"
+        android:orientation="vertical"
+        tools:context="com.eemf.sirgoingfar.material_design_in_android.SurfaceAndCircularRevealActivity">
+
+        <FrameLayout
+            android:id="@+id/fl_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:elevation="0dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:elevation="4dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:elevation="8dp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="Open Scrollable Surface Activity"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="Open Scrollable Surface Two Activity"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>
