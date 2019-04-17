@@ -45,4 +45,10 @@ snap
 Scroll Up AND Down: fast scrolls up or down based on how much of the view is visible — if more than 50% — the view will scroll down, showing itself, if less — the view will hide; used with other flags as a further customization
 
 Does it make sense now? :) I hope you understand more about scroll flags after reading this post. Please write a comment if something’s unclear. Thanks!</string>
+    <string name="animate">ANIMATE</string>
+    <string name="welcome_to_a_new_activity">Welcome to a new Activity! :(</string>
+    <string name="hello_there">Hello there!</string>
+    <string name="object_to_animate">Object to Animate</string>
+    <string name="tap_here">Tap here</string>
+    <string name="slide_image">Slide Image</string>
 </resources>

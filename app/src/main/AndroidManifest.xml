@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SurfaceAndCircularRevealActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,10 +19,15 @@
         <activity
             android:name=".ScrollableSurfaceActivity"
             android:theme="@style/ScrollableActivity" />
-
         <activity
             android:name=".ScrollableSurfaceTwoActivity"
             android:theme="@style/ScrollableActivityTwo" />
+        <activity android:name=".meaningful_motions.BasicAnimationFirstActivity" />
+        <activity android:name=".meaningful_motions.BasicAnimationSecondActivity" />
+        <activity android:name=".SurfaceAndCircularRevealActivity" />
+        <activity android:name=".meaningful_motions.ObjectPropertyAnimationActivity" />
+        <activity android:name=".meaningful_motions.BasicTransitionActivity" />
+        <activity android:name=".meaningful_motions.BasicCoordinatedMotionActivity"></activity>
     </application>
 
 </manifest>

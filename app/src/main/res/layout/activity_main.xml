@@ -12,27 +12,18 @@
         android:orientation="vertical"
         tools:context="com.eemf.sirgoingfar.material_design_in_android.SurfaceAndCircularRevealActivity">
 
-        <FrameLayout
-            android:id="@+id/fl_layout_1"
+        <Button
+            android:id="@+id/btn_submit_5"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="#ffffff"
-            android:elevation="0dp" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:layout_margin="10dp"
-            android:background="#ffffff"
-            android:elevation="4dp" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:layout_margin="10dp"
-            android:background="#ffffff"
-            android:elevation="8dp" />
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="CIRCULAR REVEAL"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
 
         <Button
             android:id="@+id/btn_submit"
@@ -43,7 +34,7 @@
             android:elevation="6dp"
             android:padding="5dp"
             android:stateListAnimator="@anim/btn_raise"
-            android:text="Open Scrollable Surface Activity"
+            android:text="SCROLLABLE SURFACE ONE"
             android:textAllCaps="false"
             android:textColor="#ffffff" />
 
@@ -56,7 +47,59 @@
             android:elevation="6dp"
             android:padding="5dp"
             android:stateListAnimator="@anim/btn_raise"
-            android:text="Open Scrollable Surface Two Activity"
+            android:text="SCROLLABLE SURFACE TWO"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="BASIC ANIMATION"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="OBJECT PROPERTY ANIMATION"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="BASIC TRANSITION"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="BASIC COORDINATED MOTION"
             android:textAllCaps="false"
             android:textColor="#ffffff" />
 
