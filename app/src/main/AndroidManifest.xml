@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.eemf.sirgoingfar.material_design_in_android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SurfaceAndCircularRevealActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,10 +21,19 @@
         <activity
             android:name=".ScrollableSurfaceActivity"
             android:theme="@style/ScrollableActivity" />
-
         <activity
             android:name=".ScrollableSurfaceTwoActivity"
             android:theme="@style/ScrollableActivityTwo" />
+        <activity android:name=".meaningful_motions.BasicAnimationFirstActivity" />
+        <activity android:name=".meaningful_motions.BasicAnimationSecondActivity" />
+        <activity android:name=".SurfaceAndCircularRevealActivity" />
+        <activity android:name=".meaningful_motions.ObjectPropertyAnimationActivity" />
+        <activity android:name=".meaningful_motions.BasicTransitionActivity" />
+        <activity android:name=".meaningful_motions.BasicCoordinatedMotionActivity" />
+        <activity
+            android:name=".meaningful_motions.ActivityTransitionActivity"
+            android:theme="@style/ActivityTransition" />
+        <activity android:name=".meaningful_motions.ActivityTransition2Activity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeBounds android:duration="250">
+        <!-- The affected View -->
+        <targets>
+            <target android:targetId="@id/iv_image" />
+        </targets>
+    </changeBounds>
+
+    <fade
+        android:duration="250"
+        android:startDelay="150" android:fadingMode="fade_in_out">
+
+        <!-- The Views that will initiate the Transition -->
+        <targets>
+            <target android:targetId="@+id/btn_transition_1" />
+            <target android:targetId="@+id/btn_transition_2" />
+        </targets>
+    </fade>
+</transitionSet>

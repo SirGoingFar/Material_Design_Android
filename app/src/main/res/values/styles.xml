@@ -8,22 +8,42 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ScrollableActivity" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="BaseAppTheme" parent="@style/AppTheme">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="ScrollableActivityTwo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ScrollableActivityTwo" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="ScrollableActivity" parent="ScrollableActivityTwo">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="ActivityTransition" parent="@style/AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/transition_explode</item>
+
+        <!--
+            To use a CUSTOM shared view transition, add (XML):
+            <item name="android:windowSharedElementEnterTransition">@transition/custom_transition_file</item>
+
+            ...or add (Code)
+            Transition transition = TransitionInflater.from(this).inflateTransition(R.transition.custom_transition_file);
+            getWindow().setSharedElementEnterTransition(transition);
+
+            ...no need adding:
+            bundle = ActivityOptions.makeSceneTransitionAnimation(
+                    this, sharedView, sharedView.getTransitionName())
+                    .toBundle();
+        -->
+
     </style>
 
 </resources>
