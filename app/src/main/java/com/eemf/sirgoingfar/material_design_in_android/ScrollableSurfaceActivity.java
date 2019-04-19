@@ -11,6 +11,8 @@ public class ScrollableSurfaceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrollable_surface);
 
+//        getSupportActionBar().hide();
+
         /* Toolbar */
         ((android.support.v7.widget.Toolbar) findViewById(R.id.toolbar)).setTitle("SirGoingFar");
     }

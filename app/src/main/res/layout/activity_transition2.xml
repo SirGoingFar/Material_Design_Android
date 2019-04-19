@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.ActivityTransition2Activity">
+
+    <ImageView
+        android:id="@+id/iv_automobile_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/profile_image"
+        android:scaleType="center"
+        android:transitionName="@string/profile_image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="@string/mock_text"
+        android:textSize="12sp" />
+
+</LinearLayout>
