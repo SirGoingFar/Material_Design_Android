@@ -33,7 +33,10 @@
         <activity
             android:name=".meaningful_motions.ActivityTransitionActivity"
             android:theme="@style/ActivityTransition" />
-        <activity android:name=".meaningful_motions.ActivityTransition2Activity"></activity>
+        <activity android:name=".meaningful_motions.ActivityTransition2Activity" />
+        <activity android:name=".meaningful_motions.InstructiveMotionActivity" />
+        <activity android:name=".meaningful_motions.InterpolatorActivity" />
+        <activity android:name=".meaningful_motions.AnimatedVectorDrawableActivity"></activity>
     </application>
 
 </manifest>

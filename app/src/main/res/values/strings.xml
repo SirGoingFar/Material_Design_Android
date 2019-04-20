@@ -53,4 +53,14 @@ Does it make sense now? :) I hope you understand more about scroll flags after r
     <string name="slide_image">Slide Image</string>
     <string name="meet_with_sirgoingfar_the_next_minister_of_education_of_frn">Meet with SirGoingFar, the next Minister of Education of the FRN.</string>
     <string name="image">image</string>
+    <string name="meaningful_motion_sample">Meaningful Motion Sample</string>
+
+    <!-- Animated Vector Drawable -->
+    <string name="tick">tick</string>
+    <string name="cross">cross</string>
+    <string name="groupTickCross">groupTickCross</string>
+    <string name="path_tick">M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41z</string>
+    <string name="path_cross">M19,6.41L17.59,5 12,10.59 6.41,5 5,6.41 10.59,12 5,17.59 6.41,19 12,13.41 17.59,19 19,17.59 13.41,12z</string>
+    <string name="vector_drawable">vector_drawable</string>
+    <string name="change">Change</string>
 </resources>
