@@ -6,9 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.ActivityTransitionActivity;
+import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.AnimatedVectorDrawableActivity;
 import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.BasicAnimationFirstActivity;
 import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.BasicCoordinatedMotionActivity;
 import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.BasicTransitionActivity;
+import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.InstructiveMotionActivity;
+import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.InterpolatorActivity;
 import com.eemf.sirgoingfar.material_design_in_android.meaningful_motions.ObjectPropertyAnimationActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -79,6 +82,30 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ActivityTransitionActivity.class));
+            }
+        });
+
+        /* Submit Button 9 Action */
+        findViewById(R.id.btn_submit_9).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, InstructiveMotionActivity.class));
+            }
+        });
+
+        /* Submit Button 10 Action */
+        findViewById(R.id.btn_submit_10).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, InterpolatorActivity.class));
+            }
+        });
+
+        /* Submit Button 11 Action */
+        findViewById(R.id.btn_submit_11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AnimatedVectorDrawableActivity.class));
             }
         });
 

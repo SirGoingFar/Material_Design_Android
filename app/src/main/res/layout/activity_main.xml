@@ -116,5 +116,44 @@
             android:textAllCaps="false"
             android:textColor="#ffffff" />
 
+        <Button
+            android:id="@+id/btn_submit_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="INSTRUCTIVE MOTION"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="INTERPOLATOR"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_submit_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_ripple"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:stateListAnimator="@anim/btn_raise"
+            android:text="ANIMATED VECTOR DRAWABLE"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
     </LinearLayout>
 </ScrollView>
